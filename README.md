@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+![latest screenshot](https://raw.githubusercontent.com/ahmear0/fixable/ec7792bb56e7d987ad7f5f0fd7bf32c00607641d/public/fixable-logo-Vector.svg?raw=true "masthead")
+
+###Mission Statement
+Giving a new life to existing and unwanted garments by connecting individuals to local designers, artisans, and seamstresses to build a strong community striving towards a more sustainable way of life.
+
+###A short description of what we are
+One-stop, accessible online service for mending, repairing, and repurposing garments to extend lifespan of clothings to reduce waste
+
+Motto: wear, repair, repurpose?
+
+###Some of the benefits of Fixable
+- Online community for sustainable garment use
+- Connect people to local seamstress for mending, upcycling, altering garments
+- Offer a platform to learn more about sewing, mending, sustainability, caring for clothes (diys, tutorials, tips, workshops)
+- Help reduce clothing waste
+- Create a sense of community and connectivity, allow people to help each other
+- Help fashion students, individual designers to improve skills and build network
+- Enable people to feel more connected and attached to their clothes
+- Help increase local production and support local businesses
+- Slow down fashion cycle, keep garments in the cycle longer
+- Create more valuable and unique pieces of clothing
+- Specific categories: (1) basic mending, (2) alterations, (3) redesign/upcycling
+- Sub-categories: natural dying, surface design embellishments (embroidery)
+- Offer the possibility to take part in the redesign process
+- Place to pass down waste fabric/deadstock to other people (i.e. section where people can post if they have some textile waste someone would like to use)
+- Offering a space for seamsters and designers to showcase their skills (online profile/portfolio with reviews from customers)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
