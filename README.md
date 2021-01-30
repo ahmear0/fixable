@@ -1,14 +1,14 @@
 ![latest screenshot](https://raw.githubusercontent.com/ahmear0/fixable/ec7792bb56e7d987ad7f5f0fd7bf32c00607641d/public/fixable-logo-Vector.svg?raw=true "masthead")
 
-###Mission Statement
+### Mission Statement
 Giving a new life to existing and unwanted garments by connecting individuals to local designers, artisans, and seamstresses to build a strong community striving towards a more sustainable way of life.
 
-###A short description of what we are
+### A short description of what we are
 One-stop, accessible online service for mending, repairing, and repurposing garments to extend lifespan of clothings to reduce waste
 
 Motto: wear, repair, repurpose?
 
-###Some of the benefits of Fixable
+### Some of the benefits of Fixable
 - Online community for sustainable garment use
 - Connect people to local seamstress for mending, upcycling, altering garments
 - Offer a platform to learn more about sewing, mending, sustainability, caring for clothes (diys, tutorials, tips, workshops)
