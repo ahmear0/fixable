@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Fixable</title>
+    <style>
+        #map {
+          height: 100%;
+          width: 70%;
+        }
+        html,
+        body {
+          height: 100%;
+          margin: 0;
+          padding: 2;
+        }
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQcH469dfM7fd-X5Es72KReSvvq8BuGwE&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <!-- jsFiddle will insert css and js -->
+
+
+<script type="text/javascript">
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 16,
+          center: 
+                {
+                  lat: 41.1483035, lng: -81.3531715
+                },
+        });
+        // Create an array of alphabetical characters used to label the markers.
+        const labels = [
+        	"Seamstress",
+          "Leather-working",
+          "Seamstress",
+          "Knitting",
+          "Embroidery"
+          
+        ]
+        // Add some markers to the map.
+        // Note: The code uses the JavaScript Array.prototype.map() method to
+        // create an array of markers based on a given "locations" array.
+        // The map() method here has nothing to do with the Google Maps API.
+        const markers = locations.map((location, i) => {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length],
+            icon: "./marker2.png",
+          });
+        });
+        // Add a marker clusterer to manage the markers.
+        new MarkerClusterer(map, markers, {
+          imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+        });
+      }
+      const locations = [
+      	{ lat: 41.1443, lng: -81.3475 },
+        { lat: 41.1533705, lng: -81.3579166 },
+        { lat: 41.1497396, lng: -81.3541618 },
+        { lat: 41.1497495, lng: -81.3520214 },
+        { lat: 41.14893453678884, lng: -81.35158247036574 },
+        { lat: 41.149832554055536, lng: -81.35458143443252}
+      ];
+</script>
+<body bgcolor="618462">
+    <center>
+    <div id="masthead"><img src="./fixable-logo-Vector.svg"><br><br>
+    </div></center>
+    <div id="map">
+    </div>
+  </body>
+</html>
